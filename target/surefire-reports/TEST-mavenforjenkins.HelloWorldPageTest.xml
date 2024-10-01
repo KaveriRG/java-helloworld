@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="mavenforjenkins.HelloWorldPageTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="mavenforjenkins.HelloWorldPageTest" time="0.003" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17.0.12+7-Ubuntu-1ubuntu222.04"/>
+    <property name="java.vm.version" value="17.0.12+7-Ubuntu-1ubuntu224.04"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/azureuser/myagent/_work/1/s"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/kaveri/local-repo/java-helloworld"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -12,9 +13,9 @@
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/azureuser/myagent/_work/1/s"/>
+    <property name="user.dir" value="/home/kaveri/local-repo/java-helloworld"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="17.0.12+7-Ubuntu-1ubuntu222.04"/>
+    <property name="java.runtime.version" value="17.0.12+7-Ubuntu-1ubuntu224.04"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
@@ -29,13 +30,13 @@
     <property name="java.class.version" value="61.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="6.5.0-1025-azure"/>
+    <property name="os.version" value="6.8.0-1015-azure"/>
     <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
-    <property name="user.home" value="/home/azureuser"/>
-    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="user.home" value="/home/kaveri"/>
+    <property name="user.timezone" value="Etc/UTC"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="azureuser"/>
+    <property name="user.name" value="kaveri"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
@@ -56,6 +57,6 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.stdout.encoding" value="UTF-8"/>
   </properties>
-  <testcase classname="mavenforjenkins.HelloWorldPageTest" name="testBuild" time="0.006"/>
-  <testcase classname="mavenforjenkins.HelloWorldPageTest" name="testingHelloWorld" time="0"/>
+  <testcase classname="mavenforjenkins.HelloWorldPageTest" name="testBuild" time="0.001"/>
+  <testcase classname="mavenforjenkins.HelloWorldPageTest" name="testingHelloWorld" time="0.002"/>
 </testsuite>
