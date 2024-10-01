@@ -29,6 +29,7 @@ public class HelloWorldPageTest {
 	@Test
 	public void testBuild() {
     	System.out.println("This is the testcase in this class");
+	System.out.println("This is testing for POLL SCM");
         String str1="This is the testcase in this class";
         assertEquals("This is the testcase in this class", str1);
 	}
